@@ -1,4 +1,4 @@
-var appendAttr = function (obj, attrobj, bol) {
+var appendAttr = (obj, attrobj, bol) => {
     var objcext = obj[0];
     var csid = obj.slice(1);
     var cssids;
